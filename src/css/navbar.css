@@ -1,0 +1,124 @@
+.login-try-for-free-button{
+    right:0;
+    float: right;
+    position: absolute;
+    margin-right: 20px;
+}
+.custom-navbar-color {
+    position: fixed !important;
+    z-index: 999;
+}
+.custom {
+    position: fixed !important;
+    top: 0;
+    z-index: 9999;
+    background: #FAF4FA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    width:100%;
+    display: flex !important;
+}
+.home {
+    font-family: "Fredoka One", cursive;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.headerGuidely{
+    background: #FAF4FA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    width:100%;
+    position: fixed !important;
+    top: 0;
+    z-index: 9999;
+    padding: 10px;
+}
+.navSearch{
+    background: #FAF4FA;
+    border-radius: 4px;
+}
+.downloadAppButton{
+    border: #800080 1px solid;
+    padding: 4px 10px;
+    color: #800080;
+    border-radius: 8px;
+}
+.bgcolorTry{
+    background: #800080;
+    color: white;
+}
+.flexrowspacebet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.navCollapse{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+#basic-navbar-nav{
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.testDropdown{
+    background: white;
+    border: lightgray 1px solid;
+    position: absolute;
+    border-radius: 4px;
+    top: 3rem;
+    left: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    cursor: pointer;
+}
+.dropdownContents{
+    padding: 10px;
+}
+.popover {
+    top:60px !important;
+    max-width: max-content !important;
+}
+
+.rc-menu-horizontal{
+    border-bottom: none;
+    background: #FAF4FA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    padding: 8px;
+}
+.rc-menu-horizontal > .rc-menu-submenu{
+    vertical-align: middle !important;
+}
+.rc-menu-horizontal > .rc-menu-item-active {
+    border-bottom: none;
+    background-color: #f3f5f7;
+    color:gray;
+}
+.rc-menu-horizontal > .rc-menu-submenu-active, .rc-menu-horizontal > .rc-menu-item-active {
+    border-bottom: none;
+    background-color: transparent;
+    color: gray;
+}
+.rc-menu-submenu-active > .rc-menu-submenu-title {
+    background-color: transparent;
+}
+horizontal > .rc-menu-item {
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rc-menu-horizontal > .rc-menu-item {
+    padding: 7px 7px 7px 16px;
+}
+.rc-menu-horizontal > .rc-menu-submenu, .rc-menu-horizontal > .rc-menu-item {
+    vertical-align: middle !important;
+}
+.rc-menu-item-selected {
+    background-color: #FAF4FA;
+}
+.rc-menu-vertical > .rc-menu-item {
+    padding: 12px 8px 12px 24px;
+}

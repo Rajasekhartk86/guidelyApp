@@ -1,0 +1,194 @@
+.examsContainer{
+    background-color: ghostwhite;
+}
+.exams-each-container{
+    position: relative;
+    text-align:center;
+    padding: 20px;
+    margin: 20px;
+    width: 80% !important;
+    box-shadow: 4px 20px 20px whitesmoke
+
+}
+.examImageinsideContent{
+    position: absolute;
+    top:40px;
+}
+.examsHeader{
+    background: blueviolet;
+}
+.selectExams{
+    cursor: pointer;
+    color:blueviolet;
+    margin: 20px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+.beforExams{
+    cursor: pointer;
+    color:black;
+    margin: 20px;
+}
+.examsTabs{
+    display: flex;
+    flex-direction: row;
+}
+.slick-next:before {
+    content: '→';
+    color: black !important;
+}
+/* .slick-slider {
+    width: 90%;
+    margin: 0 auto;
+} */
+.slick-prev:before {
+    content: '←';
+    color:black !important;
+}
+.slick-arrow{
+ color:black;
+}
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+/*Test Page css*/
+
+.testsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+}
+.testEachContainer{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: lightgray 1px solid;
+    box-shadow: 4px 6px 6px whitesmoke;
+    border-radius: 10px;
+    background: white;
+    align-items: center;
+    cursor: pointer;
+}
+.testNamePadding{
+    padding:0px 10px;
+}
+
+/*Type Page css*/
+.type_text{
+    font-weight: bold;
+    background: ghostwhite;
+    /* margin: 20px 60px 6px 60px; */
+    padding: 4px;
+}
+.typeContainer{
+    margin: 20px 60px 6px 60px;
+}
+.eachTypeContainer{
+    display: flex;
+    border: lightgray 1px solid;
+    border-radius: 10px;
+    padding: 20px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.typeRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+/*Publication Page css*/
+.publication-each-container{
+    
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+}
+.publication-name{
+    padding-left: 10px;
+}
+.publicationBuyNow{
+    border: blueviolet 1px solid;
+    padding: 10px;
+    width: fit-content;
+    float: right;
+    margin-left: auto;
+}
+.flexColoumnPub{
+    display: flex !important;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 90% !important;
+    box-shadow: 4px 20px 20px whitesmoke;
+    border: lightgray 1px solid;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.anchortagStyleRemove{
+    text-decoration: none;
+    color:black;
+}
+
+/*WhyGuidely Page css*/
+.tryForFree{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 4px;
+    padding: 6px 70px;
+    /* margin-top: 40px; */
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sliderWhyGuidely{
+    margin-bottom: 60px;
+}
+.whyGuidely{
+    background-color: #cccccc;
+    opacity:0.8;
+}
+
+/*Testimonials Page css*/
+.marginTestimonials{
+    margin:70px 0px;
+}
+
+/*Carousel Page css*/
+.carouselSection{
+    margin-top: 70px;
+}
+
+/*BankingMenu Page css*/
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+.containerBanking{
+    background: white;
+    border-radius: 4px;
+}
+.bankingTextOptions{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.firstRow{
+    padding-right: 20px;
+}

@@ -1,0 +1,14 @@
+.foot{
+    width:100%;
+    background-color: #800080;
+    color:white;
+}
+.guidelyCompanyFooter{
+    list-style-type: none;
+    color:white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.aboutGuidely{
+    padding: 40px !important;
+}
