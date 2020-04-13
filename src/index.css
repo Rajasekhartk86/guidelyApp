@@ -21,3 +21,8 @@ body {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 320px) {
+  body{
+    font: 14px;
+  }
+}

@@ -29,7 +29,7 @@ class Test extends React.Component {
   render() {
     return (
       <div>
-        <div className="examsTabs">
+        <div className="examsTabs scrollmenu">
           <div className="beforExams">Category</div>
           <div
             className={
@@ -90,31 +90,31 @@ class Test extends React.Component {
                 <div className="testNamePadding">SBI Clerk</div>
               </div>
             </Link>
-            <Link to="/sbi-po" className="anchortagStyleRemove">
+            <Link to="/sbi-po" className="anchortagStyleRemove ">
               <div className="testEachContainer">
                 <img src={require("./../../assests/SBI PO.png")} />
                 <div className="testNamePadding">SBI PO</div>
               </div>
             </Link>
-            <Link to="/rbi-assisstance" className="anchortagStyleRemove">
+            <Link to="/rbi-assisstance" className="anchortagStyleRemove hidedisplaymq">
               <div className="testEachContainer">
                 <img src={require("./../../assests/RBIAssistant.png")} />
                 <div className="testNamePadding">RBI Assistance</div>
               </div>
             </Link>
-            <Link to="/ibps-rrb-po" className="anchortagStyleRemove">
+            <Link to="/ibps-rrb-po" className="anchortagStyleRemove hidedisplaymq">
               <div className="testEachContainer">
                 <img src={require("./../../assests/IBPSRRBClerk.png")} />
                 <div className="testNamePadding">IBPS RRB PO</div>
               </div>
             </Link>
-            <Link to="/ibps-rrb-clerk" className="anchortagStyleRemove">
+            <Link to="/ibps-rrb-clerk" className="anchortagStyleRemove hidedisplaymq">
               <div className="testEachContainer">
                 <img src={require("./../../assests/IBPSRRBClerk.png")} />
                 <div className="testNamePadding">IBPS RRB Clerk</div>
               </div>
             </Link>
-            <Link to="/ibps-so" className="anchortagStyleRemove">
+            <Link to="/ibps-so" className="anchortagStyleRemove hidedisplaymq">
               <div className="testEachContainer">
                 <img src={require("./../../assests/IBPSSO.png")} />
                 <div className="testNamePadding">IBPS SO</div>

@@ -1,8 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { Examdata } from "./Examdata";
-import "../../css/exams.css";
 import { Link } from "react-router-dom";
+import "../../css/exams.css";
+import "./../../css/mediaQuery.css"
 
 class Exams extends React.Component {
   state = {
@@ -91,7 +92,7 @@ class Exams extends React.Component {
               {Examdata.map((item) => (
                 <Link to={"/exams/" + item.name} className="anchortagStyleRemove">
                 <div class="exams-each-container">
-                <img src={require("./../../assests/" + item.image)}/>
+                <img src={require("./../../assests/" + item.image)} style={{width:"85%"}} className="examsImage"/>
                 <div className="examImageinsideContent">
                   <div classname="">{item.exam_name}</div>
                   <div>{item.tests}</div>

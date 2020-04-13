@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import "./../../css/mediaQuery.css"
 
 function WhyGuidely() {
     var settings = {
@@ -22,9 +23,9 @@ function WhyGuidely() {
         <Slider {...settings} className="sliderWhyGuidely">
       <div class="">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+          <div class="col-xs-2 col-sm-6 col-lg-6 col-md-6">
             <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                 <div><b>Stay up to date</b></div>
                 <div>
                   we provide timely notifications and 
@@ -34,13 +35,14 @@ function WhyGuidely() {
               </div>
               <img
                 src={require("./../../assests/stayUpToDateLady.png")}
-                alt=""
+                alt="lady"
+                className="whyGuideluLadymq"
               />
             </div>
           </div>
-          <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+          <div class="col-xs-2 col-sm-6 col-lg-6 col-md-6">
           <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                   <div>
                   <b>Get Everything in one place</b>
                   </div>
@@ -52,7 +54,8 @@ function WhyGuidely() {
               
               <img
                 src={require("./../../assests/everyThing1PlaceGuy.png")}
-                alt=""
+                alt="boy"
+                className="whyGuideluLadymq"
               />
               </div>
           </div>
@@ -62,7 +65,7 @@ function WhyGuidely() {
         <div class="row">
           <div class="col-sm-6">
             <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                 <div><b>Stay up to date</b></div>
                 <div>
                   we provide timely notifications and 
@@ -72,13 +75,14 @@ function WhyGuidely() {
               </div>
               <img
                 src={require("./../../assests/stayUpToDateLady.png")}
-                alt=""
+                alt="lady"
+                className="whyGuideluLadymq"
               />
             </div>
           </div>
           <div class="col-sm-6">
           <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                   <div>
                   <b>Get Everything in one place</b>
                   </div>
@@ -90,7 +94,8 @@ function WhyGuidely() {
               
               <img
                 src={require("./../../assests/everyThing1PlaceGuy.png")}
-                alt=""
+                alt="boy"
+                className="whyGuideluLadymq"
               />
               </div>
           </div>
@@ -100,7 +105,7 @@ function WhyGuidely() {
         <div class="row">
           <div class="col-sm-6">
             <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                 <div><b>Stay up to date</b></div>
                 <div>
                   we provide timely notifications and 
@@ -110,13 +115,14 @@ function WhyGuidely() {
               </div>
               <img
                 src={require("./../../assests/stayUpToDateLady.png")}
-                alt=""
+                alt="lady"
+                className="whyGuideluLadymq"
               />
             </div>
           </div>
           <div class="col-sm-6">
           <div className="flexrow">
-              <div className="flexcolumn">
+              <div className="flexcolumn fontmq">
                   <div>
                   <b>Get Everything in one place</b>
                   </div>
@@ -128,7 +134,8 @@ function WhyGuidely() {
               
               <img
                 src={require("./../../assests/everyThing1PlaceGuy.png")}
-                alt=""
+                alt="boy"
+                className="whyGuideluLadymq"
               />
               </div>
           </div>

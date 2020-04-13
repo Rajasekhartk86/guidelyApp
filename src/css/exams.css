@@ -1,13 +1,13 @@
 .examsContainer{
-    background-color: ghostwhite;
+    /* background-color: ghostwhite; */
 }
 .exams-each-container{
     position: relative;
-    text-align:center;
+    /* text-align:center;
     padding: 20px;
-    margin: 20px;
-    width: 80% !important;
-    box-shadow: 4px 20px 20px whitesmoke
+    margin: 20px; */
+    /* width: 80% !important; */
+    /* box-shadow: 4px 20px 20px whitesmoke */
 
 }
 .examImageinsideContent{
@@ -57,7 +57,6 @@
 .testsContainer{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 60px;
 }
 .testEachContainer{
     display: flex;
@@ -82,7 +81,7 @@
     padding: 4px;
 }
 .typeContainer{
-    margin: 20px 60px 6px 60px;
+    /* margin: 20px 60px 6px 60px; */
 }
 .eachTypeContainer{
     display: flex;
