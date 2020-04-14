@@ -5,8 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import { createBrowserHistory } from "history";
-import Home from "./components/landing/Home"
-// import './App.css';
+import Home from "./components/landing/Home";
 import User from './components/User';
 import Navbar from './components/navbar';
 import Package from './components/landing/Package';
@@ -27,6 +26,7 @@ import IBPSSO from './components/tests/IBPSSO';
 import HarcoBank from './components/tests/HarcoBank';
 import EPFO from './components/tests/EPFO';
 import IBPSPO from './components/tests/IBPSPO';
+import Footer from './components/footer/Footer';
 
 const history = createBrowserHistory();
 
@@ -35,6 +35,7 @@ function App() {
     <div className="App">
        <Router history={history}>
        <Navbar />
+       <div style={{marginTop:"6%"}} className="mQmargin">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/user" component={User} />
@@ -58,6 +59,8 @@ function App() {
               <Route exact path="/ibps-po" component={IBPSPO} />
               {/* <Route path="*" component={NotFound} />; */}
             </Switch>
+            </div>
+            <Footer />
           </Router>
     </div>
   );

@@ -6,12 +6,11 @@ import Type from "./Type";
 import Publication from "./Publication";
 import WhyGuidely from "./WhyGuidely";
 import Testimonials from "./Testimonials";
-import Footer from "../footer/Footer"
 
 function Home() {
   return (
     <div>
-      <section className="carouselSection">
+      <section className="">
         <Carousel interval={1000}>
           <Carousel.Item>
             <img
@@ -69,9 +68,6 @@ function Home() {
         <Testimonials />
         </div>
         
-      </section>
-      <section>
-        <Footer />
       </section>
     </div>
   );

@@ -167,9 +167,7 @@
 }
 
 /*Carousel Page css*/
-.carouselSection{
-    margin-top: 70px;
-}
+
 
 /*BankingMenu Page css*/
 .flexRow{
@@ -190,4 +188,61 @@
 }
 .firstRow{
     padding-right: 20px;
+}
+
+/*Topic Test Page css*/
+.topicTestTabs{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color:  #ACAEAE;
+ font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.selectedTest{
+    color: #800080;
+    border-bottom: 7px solid;
+    /* border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; */
+}
+.testTopics{
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #6E7171;
+display: inline-block;
+cursor:pointer;
+}
+.eachTopics{
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin: 4px 0px;
+}
+.eachTopics:hover{
+    background: #F3E7F3;
+}
+.eachTopics:active{
+    background: #F3E7F3;
+}
+.eachTopics:focus{
+    background: #F3E7F3;
+}
+.eachTopicbg{
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: #F3E7F3; 
+    margin: 4px 0px; 
+}
+.ordersContent{
+    font-weight: 500;
+font-size: 14px;
+}
+.orderAndBanking{
+    display: inline-block;
+    width: 32%;
+}
+.imageWidth{
+    width: 240px;
 }

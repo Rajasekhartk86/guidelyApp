@@ -1,31 +1,35 @@
 @media screen and (max-width: 320px) {
-    .scrollmenu {
-        overflow: auto;
-        white-space: nowrap;
-      }
-      
-       .eachTypeContainer {
-        text-align: center;
-        padding: 10px 20px;
-      }
-      .hidedisplaymq{
-          display: none;
-      }
-      .rc-menu-submenu-selected {
-        display: none !important;
-    }
-    .containerBanking{
-      display: flex;
-      flex-direction: column;
-      width: 30px;
-    }
-    .bar1, .bar2, .bar3 {
-      width: 35px;
-      height: 5px;
-      background-color: black;
-      margin: 6px 0;
+  .mQmargin {
+    margin-top: 24% !important;
   }
-  .containerHamberger{
+  .scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .eachTypeContainer {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .hidedisplaymq {
+    display: none;
+  }
+  .rc-menu-submenu-selected {
+    display: none !important;
+  }
+  .containerBanking {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .containerHamberger {
     display: inline-block;
     cursor: pointer;
     color: black;
@@ -33,255 +37,406 @@
     top: 14px;
     z-index: 999;
     right: 4px;
-}
+  }
 
-.MuiDrawer-paperAnchorLeft {
-  left: 0;
-  right: auto;
-  width: 38%;
-}
-.DrawerContent{
-  padding: 14px 20px;
-}
-.whyGuideluLadymq{
-  width:100px;
-}
-.fontmq{
-  font-size: 14px;
-}
-.examsImage{
-  width:100% !important;
-}
-.testEachContainer{
-  padding: 8px 6px;
-}
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 38%;
+  }
+  .DrawerContent {
+    padding: 14px 20px;
+  }
+  .whyGuideluLadymq {
+    width: 100px;
+  }
+  .fontmq {
+    font-size: 14px;
+  }
+  .examsImage {
+    width: 100% !important;
+  }
+  .testEachContainer {
+    padding: 8px 6px;
+  }
+  .orderAndBanking {
+    width: auto;
+    flex-direction: column;
+    margin: 0px 8px;
+  }
+  .seatingmq {
+    display: flex;
+  }
+  .selectedTest {
+    margin: 0px 10px;
+  }
+  .testtab {
+    margin: 0px 10px;
+  }
+  .hidedrop {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .hideTopics{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
+  .mQmargin {
+    margin-top: 24% !important;
+  }
   .scrollmenu {
     overflow: auto;
     white-space: nowrap;
   }
-  
-   .eachTypeContainer {
+
+  .eachTypeContainer {
     text-align: center;
     padding: 10px 20px;
   }
-  .hidedisplaymq{
+  .hidedisplaymq {
     display: none;
-}
-.rc-menu-submenu-selected {
-  display: none !important;
-}
-.containerBanking{
-display: flex;
-flex-direction: column;
-width: 30px;
-}
-.bar1, .bar2, .bar3 {
-width: 35px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
-}
-.containerHamberger{
-display: inline-block;
-cursor: pointer;
-color: black;
-position: absolute;
-top: 14px;
-z-index: 999;
-right: 4px;
-}
-.MuiDrawer-paperAnchorLeft {
-  left: 0;
-  right: auto;
-  width: 38%;
-}
-.DrawerContent{
-  padding: 14px 20px;
-}
-.whyGuideluLadymq{
-  width:100px;
-}
-.fontmq{
-  font-size: 14px;
-}
-.examsImage{
-  width:100% !important;
-}
-.testEachContainer{
-  padding: 8px 6px;
-}
+  }
+  .rc-menu-submenu-selected {
+    display: none !important;
+  }
+  .containerBanking {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .containerHamberger {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 14px;
+    z-index: 999;
+    right: 4px;
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 38%;
+  }
+  .DrawerContent {
+    padding: 14px 20px;
+  }
+  .whyGuideluLadymq {
+    width: 100px;
+  }
+  .fontmq {
+    font-size: 14px;
+  }
+  .examsImage {
+    width: 100% !important;
+  }
+  .testEachContainer {
+    padding: 8px 6px;
+  }
+  .orderAndBanking {
+    width: auto;
+    flex-direction: column;
+    margin: 0px 8px;
+  }
+  .seatingmq {
+    display: flex;
+  }
+  .selectedTest {
+    margin: 0px 10px;
+  }
+  .testtab {
+    margin: 0px 10px;
+  }
+  .hidedrop {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .hideTopics{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
+  .mQmargin {
+    margin-top: 24% !important;
+  }
   .scrollmenu {
     overflow: auto;
     white-space: nowrap;
   }
-  
-   .eachTypeContainer {
+
+  .eachTypeContainer {
     text-align: center;
     padding: 10px 20px;
   }
-  .hidedisplaymq{
+  .hidedisplaymq {
     display: none;
-}
-.rc-menu-submenu-selected {
-  display: none !important;
-}
-.containerBanking{
-display: flex;
-flex-direction: column;
-width: 30px;
-}
-.bar1, .bar2, .bar3 {
-width: 35px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
-}
-.containerHamberger{
-display: inline-block;
-cursor: pointer;
-color: black;
-position: absolute;
-top: 14px;
-z-index: 999;
-right: 4px;
-}
-.MuiDrawer-paperAnchorLeft {
-  left: 0;
-  right: auto;
-  width: 38%;
-}
-.DrawerContent{
-  padding: 14px 20px;
-}
-.whyGuideluLadymq{
-  width:100px;
-}
-.fontmq{
-  font-size: 14px;
-}
-.examsImage{
-  width:100% !important;
-}
-.testEachContainer{
-  padding: 8px 6px;
-}
+  }
+  .rc-menu-submenu-selected {
+    display: none !important;
+  }
+  .containerBanking {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .containerHamberger {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 14px;
+    z-index: 999;
+    right: 4px;
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 38%;
+  }
+  .DrawerContent {
+    padding: 14px 20px;
+  }
+  .whyGuideluLadymq {
+    width: 100px;
+  }
+  .fontmq {
+    font-size: 14px;
+  }
+  .examsImage {
+    width: 100% !important;
+  }
+  .testEachContainer {
+    padding: 8px 6px;
+  }
+  .orderAndBanking {
+    width: auto;
+    flex-direction: column;
+    margin: 0px 8px;
+  }
+  .seatingmq {
+    display: flex;
+  }
+  .selectedTest {
+    margin: 0px 10px;
+  }
+  .testtab {
+    margin: 0px 10px;
+  }
+  .hidedrop {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .hideTopics{
+    display: none;
+  }
+  
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+  .mQmargin {
+    margin-top: 24% !important;
+  }
   .scrollmenu {
     overflow: auto;
     white-space: nowrap;
   }
-  
-   .eachTypeContainer {
+
+  .eachTypeContainer {
     text-align: center;
     padding: 10px 20px;
   }
-  .hidedisplaymq{
+  .hidedisplaymq {
     display: none;
-}
-.rc-menu-submenu-selected {
-  display: none !important;
-}
-.containerBanking{
-display: flex;
-flex-direction: column;
-width: 30px;
-}
-.bar1, .bar2, .bar3 {
-width: 35px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
-}
-.containerHamberger{
-display: inline-block;
-cursor: pointer;
-color: black;
-position: absolute;
-top: 14px;
-z-index: 999;
-right: 4px;
-}
-.MuiDrawer-paperAnchorLeft {
-  left: 0;
-  right: auto;
-  width: 38%;
-}
-.DrawerContent{
-  padding: 14px 20px;
-}
-.whyGuideluLadymq{
-  width:100px;
-}
-.fontmq{
-  font-size: 14px;
-}
-.examsImage{
-  width:100% !important;
-}
-.testEachContainer{
-  padding: 8px 6px;
-}
+  }
+  .rc-menu-submenu-selected {
+    display: none !important;
+  }
+  .containerBanking {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .containerHamberger {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 14px;
+    z-index: 999;
+    right: 4px;
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 38%;
+  }
+  .DrawerContent {
+    padding: 14px 20px;
+  }
+  .whyGuideluLadymq {
+    width: 100px;
+  }
+  .fontmq {
+    font-size: 14px;
+  }
+  .examsImage {
+    width: 100% !important;
+  }
+  .testEachContainer {
+    padding: 8px 6px;
+  }
+  .orderAndBanking {
+    width: auto;
+    flex-direction: column;
+    margin: 0px 8px;
+  }
+  .seatingmq {
+    display: flex;
+  }
+  .selectedTest {
+    margin: 0px 10px;
+  }
+  .testtab {
+    margin: 0px 10px;
+  }
+  .hidedrop {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .hideTopics{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .hidedisplaymq{
+  .mQmargin {
+    margin-top: 24% !important;
+  }
+  .hidedisplaymq {
     display: none;
+  }
+  .rc-menu-submenu-selected {
+    display: none !important;
+  }
+  .containerBanking {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .containerHamberger {
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 14px;
+    z-index: 999;
+    right: 4px;
+  }
+  .MuiDrawer-paperAnchorLeft {
+    left: 0;
+    right: auto;
+    width: 38%;
+  }
+  .DrawerContent {
+    padding: 14px 20px;
+  }
+  .whyGuideluLadymq {
+    width: 100px;
+  }
+  .fontmq {
+    font-size: 14px;
+  }
+  .examsImage {
+    width: 100% !important;
+  }
+  .testEachContainer {
+    padding: 8px 6px;
+  }
+  /* .orderAndBanking{
+    display: inline-block;
+    width: 39%;
+} */
+.orderAndBanking {
+  width: auto;
+  flex-direction: column;
+  margin: 0px 8px;
 }
-.rc-menu-submenu-selected {
-  display: none !important;
+.seatingmq {
+  display: flex;
 }
-.containerBanking{
-display: flex;
-flex-direction: column;
-width: 30px;
+.selectedTest {
+  margin: 0px 10px;
 }
-.bar1, .bar2, .bar3 {
-width: 35px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
+.testtab {
+  margin: 0px 10px;
 }
-.containerHamberger{
-display: inline-block;
-cursor: pointer;
-color: black;
-position: absolute;
-top: 14px;
-z-index: 999;
-right: 4px;
+.hidedrop {
+  display: flex;
+  margin: 10px 0px;
 }
-.MuiDrawer-paperAnchorLeft {
-  left: 0;
-  right: auto;
-  width: 38%;
+.hideTopics{
+  display: none;
 }
-.DrawerContent{
-  padding: 14px 20px;
-}
-.whyGuideluLadymq{
-  width:100px;
-}
-.fontmq{
-  font-size: 14px;
-}
-.examsImage{
-  width:100% !important;
-}
-.testEachContainer{
-  padding: 8px 6px;
+.scolltab{
+  overflow: auto;
+  white-space: nowrap;
 }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .hidedrop {
+    display: none;
+  }
+  .orderAndBanking{
+    display: inline-block;
+    width: 32%;
+}
+.imageWidth {
+  width: 183px;
+}
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1441px) {
+  .orderAndBanking{
+    display: inline-block;
+    width: 32%;
+}
+  .hidedrop {
+    display: none;
+  }
 }
